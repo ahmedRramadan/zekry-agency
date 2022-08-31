@@ -1,0 +1,51 @@
+.quote-section{
+    background-color: var(--quote-color-ligth);
+    padding: 5% 0;
+    text-transform: capitalize;
+}
+.quote-section h2{
+    font-size: 83px;
+    color: var(--secondary-color);
+    line-height: 95%;
+    margin-bottom: 5%;
+}
+.quote-section span{
+    width: 30px;
+    line-height: 50px;
+}
+.quote-section p{
+    color: var(--secondary-color);
+    width: 65%;
+    font-size: 20px;
+}
+
+
+@media (max-width: 1260px){
+    .quote-section h2{
+        font-size: 70px;
+    }
+}
+@media (max-width: 1000px){
+    .quote-section h2 {
+        font-size: 55px;
+    }
+    .quote-section p {
+        color: var(--secondary-color);
+        width: 65%;
+        font-size: 18px;
+    }
+}
+@media (max-width: 740px){
+    .quote-section h2 {
+        font-size: 31px;
+    }
+    .quote-section p {
+        color: var(--secondary-color);
+        width: 100%;
+        font-size: 16px;
+    }
+}
+@media (max-width: 325px){
+    
+
+}
